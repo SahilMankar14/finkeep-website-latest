@@ -27,6 +27,8 @@ body {
 }
 
 .content-title {
+  width: 100%;
+  text-align: center;
   color: #024294;
   font-size: 20px;
   font-style: normal;
