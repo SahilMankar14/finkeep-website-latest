@@ -21,9 +21,9 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-head">
-        <div className="brand-img-container">
+        <Link to="/" className="brand-img-container">
           <img src="/finkeep_white.png" alt="brand img" className="brand-img" />
-        </div>
+        </Link>
         <div className="social-media-icon-container">
           <img src="/x_icon.png" alt="x" className="footer-icon" />
           <img src="/insta_icon.png" alt="instagram" className="footer-icon" />
