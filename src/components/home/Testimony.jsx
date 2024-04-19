@@ -88,7 +88,7 @@ const Testimony = () => {
 
             <div className="name-container">
               <div className="testimony4-name">Tanmay Jain</div>
-              <div className="testimony4-profession">Verified Graduate</div>
+              <div className="testimony4-profession">Entrepreneur</div>
             </div>
           </div>
           <div className="testimony4-review">
@@ -111,7 +111,7 @@ const Testimony = () => {
 
             <div className="name-container">
               <div className="testimony5-name">Suyash Gabhane</div>
-              <div className="testimony5-profession">Verified Graduate</div>
+              <div className="testimony5-profession">Entrepreneur</div>
             </div>
           </div>
           <div className="testimony5-review">
