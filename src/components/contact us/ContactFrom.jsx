@@ -122,13 +122,21 @@ const ContactFrom = () => {
           </div>
           <div className="input-container">
             <label htmlFor="message">MESSAGE</label>
-            <input
+            <textarea
               type="text"
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Message"
               required
+              style={{
+                border: "1px solid ##d9d9d9",
+                padding: "0.5rem",
+                outline: "none",
+                width: "100%",
+                height: "8rem",
+                // resize: "none",
+              }}
             />
           </div>
           <button type="submit" className="contact-btn">
