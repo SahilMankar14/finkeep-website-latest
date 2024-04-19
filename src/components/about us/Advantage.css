@@ -35,7 +35,7 @@ body {
 
 .advantage-content-title {
   color: black;
-  font-size: 2.1vw;
+  font-size: 1.6rem;
   font-weight: 300;
 }
 
@@ -60,7 +60,6 @@ body {
   color: #000;
   font-family: Poppins;
   font-size: 1.6vw;
-  font-style: normal;
   font-weight: 600;
 }
 
@@ -70,7 +69,6 @@ body {
   color: #808080;
   font-family: Poppins;
   font-size: 1vw;
-  font-style: normal;
   font-weight: 400;
 }
 

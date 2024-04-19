@@ -36,18 +36,13 @@ body {
   gap: 2rem;
 }
 
-.content-upperline {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
+.content-upperline,
 .content-lowerline {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .industry-container {

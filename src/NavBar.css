@@ -1,3 +1,5 @@
+/* NavBar for mobile has changed you can check main branch for previous navbar */
+
 body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
@@ -11,8 +13,13 @@ body {
   background-color: white;
   z-index: 1000;
   padding: 0.625rem;
-  display: inline-flex;
+  /* previous */
+  /* display: inline-flex;
   justify-content: center;
+  align-items: center; */
+  /* optimized */
+  display: flex; /* Use flex for better centering */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -41,7 +48,8 @@ body {
   padding: 1.5rem 0.75rem;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
   position: relative;
 }
 
@@ -49,7 +57,6 @@ body {
   color: black;
   font-size: 16px;
   font-weight: 600;
-  font-style: normal;
   word-wrap: break-word;
 }
 
@@ -90,9 +97,7 @@ body {
   width: 120px;
   color: white;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-style: normal;
   word-wrap: break-word;
 }
 
@@ -106,7 +111,11 @@ body {
     flex-direction: column;
     background-color: white;
     width: 100%;
-    z-index: 1;
+    position: absolute; /* Position off-screen initially */
+    top: 100%; /* Position below the navbar on smaller screens */
+    left: 0; /* Align to left edge */
+    z-index: 10; /* Ensure menu is above other content */
+    padding: 1rem; /* Add some padding for smaller screens */
   }
 
   .menu-items-container.menu-open {

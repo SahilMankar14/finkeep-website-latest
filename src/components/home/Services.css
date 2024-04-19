@@ -29,14 +29,12 @@ body {
 .content-title {
   color: #024294;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
 }
 
 .content-subtitle {
   color: #000;
-  font-size: 32px;
-  font-style: normal;
+  font-size: 30px;
   font-weight: 500;
 }
 
@@ -51,26 +49,25 @@ body {
 }
 
 .title-description-container {
+  flex: 1;
   padding-left: 2rem;
 }
 
 .service-title {
   color: #000;
-  font-size: 22px;
-  font-style: normal;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .service-description {
   color: #808080;
-  font-size: 14px;
-  font-style: normal;
+  font-size: 12px;
   font-weight: 400;
 }
 
 .service-icon-container {
-  height: 6rem;
-  width: 6rem;
+  height: 4rem;
+  width: 4rem;
   border-radius: 100%;
   background-color: #dde4f0;
   display: flex;
@@ -79,8 +76,8 @@ body {
 }
 
 .service-icon {
-  height: 4rem;
-  width: 4rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -89,10 +86,7 @@ body {
     padding-top: 2rem;
   }
 
-  .tally-img-container {
-    width: 100%;
-  }
-
+  .tally-img-container,
   .services-content-container {
     width: 100%;
   }
